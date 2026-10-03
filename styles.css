@@ -9,7 +9,7 @@ body.ne .hero-identity{padding-top:clamp(46px,6vh,68px);padding-bottom:clamp(24p
 .hero{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) 40px;align-items:center;gap:0;max-width:none;min-height:calc(100svh - 78px);padding:0;background:linear-gradient(to right,var(--paper) 0 52%,var(--sand) 52% 100%)}
 .hero .hero-identity,body.ne .hero .hero-identity{padding:32px clamp(24px,9vw,148px);min-width:0}
 .hero .hello{margin-top:32px}
-.hero .hero-photo{justify-self:end;align-self:center;display:block;width:min(calc(100% - clamp(24px,9vw,148px)),470px,calc(68.96svh - 100px));min-height:0;margin:30px max(24px,calc(clamp(24px,9vw,148px) - 40px)) 30px 0;padding:14px 0 0 14px;background:transparent;transform:none;border:0;border-radius:0;overflow:visible}
+.hero .hero-photo{justify-self:center;align-self:center;display:block;width:min(calc(100% - 56px),560px,calc(68.96svh - 64px));min-height:0;margin:18px 0;padding:14px 0 0 14px;background:transparent;transform:none;border:0;border-radius:0;overflow:visible}
 .hero .hero-photo img{display:block;width:100%;height:auto;aspect-ratio:2 / 2.9;max-height:none;object-fit:cover;object-position:center;filter:none}
 .hero .photo-border{display:block;inset:0 14px 14px 0;border:1px solid rgba(212,60,67,.5);pointer-events:none}
 .hero .hero-role{display:block;align-self:stretch;width:40px;padding:0;background:var(--navy)}
