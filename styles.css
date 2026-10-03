@@ -40,3 +40,7 @@ body.ne .section-marker span{font-family:inherit;font-size:12px;line-height:1}
 @media(max-width:850px){body.ne .nav a{font-size:14.4px}}
 .representation,.footer [data-i18n="contact"]{font-size:11px;line-height:1.5}
 body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:13.2px;line-height:1.5;letter-spacing:0}
+@media(min-width:851px){
+  .hero .hero-photo{width:min(calc(100% - 48px),620px,calc(75svh - 70px))}
+  .hero .hero-photo img{aspect-ratio:3 / 4;object-position:center top}
+}
