@@ -41,6 +41,6 @@ body.ne .section-marker span{font-family:inherit;font-size:12px;line-height:1}
 .representation,.footer [data-i18n="contact"]{font-size:11px;line-height:1.5}
 body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:13.2px;line-height:1.5;letter-spacing:0}
 @media(min-width:851px){
-  .hero .hero-photo{width:min(calc(100% - 48px),620px,calc(75svh - 70px))}
-  .hero .hero-photo img{aspect-ratio:3 / 4;object-position:center top}
+  .hero .hero-photo{width:min(calc(100% - 32px),700px,calc(83.33svh - 76px))}
+  .hero .hero-photo img{aspect-ratio:5 / 6;object-position:center top}
 }
