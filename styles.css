@@ -32,3 +32,9 @@ body.ne .hero-identity{padding-top:clamp(46px,6vh,68px);padding-bottom:clamp(24p
   .candidate-note p,body.ne .candidate-note p{font-size:16px}
   .footer>span,body.ne .footer>span{font-size:42px}
 }
+
+/* Devanagari needs a small optical correction to match the Latin labels. */
+body.ne .nav a{font-size:15.6px;line-height:1.5;letter-spacing:0}
+body.ne .section-marker{font-size:13.2px;line-height:1.5;letter-spacing:0}
+body.ne .section-marker span{font-family:inherit;font-size:12px;line-height:1}
+@media(max-width:850px){body.ne .nav a{font-size:14.4px}}
