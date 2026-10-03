@@ -12,6 +12,7 @@ const translations = {
     quota: 'Madeshi Quota',
     role: '',
     nepalMark: 'Nepal',
+    footerMark: 'Nepali Congress',
     section1: '01',
     section2: '02',
     section3: '03',
@@ -52,7 +53,9 @@ const translations = {
     interviewsDescription: 'Through various interviews, public conversations, and recorded speeches, I have shared my views and experiences on a range of topics. My news interviews and YouTube channel bring together these conversations, speeches, and public appearances in one place. Explore them through the links below.',
     youtube: 'Youtube channel',
     contact: 'Contact',
-    email: 'Email'
+    email: 'Email',
+    facebook: 'Facebook',
+    footerYoutube: 'Youtube'
   },
   ne: {
     name: 'नागिना यादव',
@@ -67,6 +70,7 @@ const translations = {
     quota: 'मधेसी कोटा',
     role: '',
     nepalMark: 'नेपाल',
+    footerMark: 'नेपाली कांग्रेस',
     section1: '०१',
     section2: '०२',
     section3: '०३',
@@ -107,7 +111,9 @@ const translations = {
     interviewsDescription: 'विभिन्न अन्तर्वार्ता, सार्वजनिक संवाद र अभिलेखित भाषणमार्फत मैले विविध विषयमा आफ्ना विचार र अनुभवहरू साझा गर्दै आएको छु। समाचार अन्तर्वार्ता र युट्युब च्यानलले यी संवाद, भाषण र सार्वजनिक उपस्थितिहरूलाई एकै ठाउँमा समेट्छन्। तलका लिंकहरूबाट हेर्नुहोस्।',
     youtube: 'युट्युब च्यानल',
     contact: 'सम्पर्क',
-    email: 'इमेल'
+    email: 'इमेल',
+    facebook: 'फेसबुक',
+    footerYoutube: 'युट्युब'
   }
 };
 
