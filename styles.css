@@ -14,3 +14,21 @@ body.ne .hero-identity{padding-top:clamp(46px,6vh,68px);padding-bottom:clamp(24p
 .hero .photo-border{display:block;inset:0 14px 14px 0;border:1px solid rgba(212,60,67,.5);pointer-events:none}
 .hero .hero-role{display:block;align-self:stretch;width:40px;padding:0;background:var(--navy)}
 @media(max-width:850px){.hero{grid-template-columns:minmax(0,1fr);gap:16px;min-height:0;padding:32px clamp(24px,9vw,148px);background:var(--paper)}.hero .hero-identity,body.ne .hero .hero-identity{order:0;padding:0}.hero .hero-photo{order:1;justify-self:center;width:min(calc(100% - 18px),380px);margin:12px 0 8px}.hero .hero-photo:after{content:"";position:absolute;top:14px;bottom:0;right:-12px;width:8px;background:var(--navy)}.hero .hero-role{display:none}.hero .hello{margin-top:26px}.hero h1{font-size:clamp(54px,12vw,80px)}}
+
+/* Use the same type sizes in both languages, with room for Devanagari marks. */
+.hero .hello,body.ne .hero .hello{font-size:25px}
+.hero h1,body.ne .hero h1{font-size:clamp(60px,6.6vw,100px)}
+.candidate-note p,body.ne .candidate-note p{font-size:18px}
+.candidate-note strong,body.ne .candidate-note strong{font-size:14px}
+.delegation h4,body.ne .delegation h4{font-size:15px}
+.delegation .delegation-description,body.ne .delegation .delegation-description{font-size:13px}
+.interviews-description,body.ne .interviews-description{font-size:15px}
+.footer>span,body.ne .footer>span{font-size:clamp(54px,9vw,126px)}
+@media(max-width:850px){
+  .hero h1,body.ne .hero h1{font-size:clamp(54px,12vw,80px)}
+  .footer>span,body.ne .footer>span{font-size:clamp(38px,12vw,72px)}
+}
+@media(max-width:450px){
+  .candidate-note p,body.ne .candidate-note p{font-size:16px}
+  .footer>span,body.ne .footer>span{font-size:42px}
+}
