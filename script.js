@@ -48,8 +48,9 @@ const translations = {
     pakistanSubtitle: 'Bilateral Exchange on Gender-Responsive Budgeting',
     pakistanDescription: 'Engaged in a bilateral parliamentary exchange between Nepal and Pakistan focused on gender-responsive budgeting, inclusive fiscal governance, and women’s political participation. Contributed to discussions on Nepal’s experience with gender-responsive budgeting while exploring shared challenges and opportunities for strengthening gender equality through parliamentary and policy processes.',
     interviews: 'Interviews',
-    interviewsHeading: 'Listen to the<br>conversation.',
-    youtube: 'For more visit my Youtube Cannel',
+    interviewsHeading: 'MEDIA &amp; PUBLIC VOICE',
+    interviewsDescription: 'Through various interviews, public conversations, and recorded speeches, I have shared my views and experiences on a range of topics. My news interviews and YouTube channel bring together these conversations, speeches, and public appearances in one place. Explore them through the links below.',
+    youtube: 'Youtube channel',
     contact: 'Contact',
     email: 'Email'
   },
@@ -102,8 +103,9 @@ const translations = {
     pakistanSubtitle: 'लैङ्गिक उत्तरदायी बजेटसम्बन्धी द्विपक्षीय आदानप्रदान',
     pakistanDescription: 'नेपाल र पाकिस्तानबीच लैङ्गिक उत्तरदायी बजेट, समावेशी वित्तीय शासन र महिलाको राजनीतिक सहभागितामा केन्द्रित द्विपक्षीय संसदीय आदानप्रदानमा सहभागी हुनुभयो। लैङ्गिक उत्तरदायी बजेटसम्बन्धी नेपालको अनुभवबारे छलफलमा योगदान पुर्‍याउँदै संसदीय तथा नीतिगत प्रक्रियामार्फत लैङ्गिक समानता सुदृढ गर्ने साझा चुनौती र अवसरहरूबारे विचार आदानप्रदान गर्नुभयो।',
     interviews: 'अन्तर्वार्ता',
-    interviewsHeading: 'संवाद<br>सुन्नुहोस्।',
-    youtube: 'थपका लागि मेरो युट्युब च्यानल हेर्नुहोस्',
+    interviewsHeading: 'मिडिया र सार्वजनिक आवाज',
+    interviewsDescription: 'विभिन्न अन्तर्वार्ता, सार्वजनिक संवाद र अभिलेखित भाषणमार्फत मैले विविध विषयमा आफ्ना विचार र अनुभवहरू साझा गर्दै आएको छु। समाचार अन्तर्वार्ता र युट्युब च्यानलले यी संवाद, भाषण र सार्वजनिक उपस्थितिहरूलाई एकै ठाउँमा समेट्छन्। तलका लिंकहरूबाट हेर्नुहोस्।',
+    youtube: 'युट्युब च्यानल',
     contact: 'सम्पर्क',
     email: 'इमेल'
   }
