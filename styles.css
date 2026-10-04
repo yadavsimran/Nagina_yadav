@@ -67,8 +67,15 @@ body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:18px;lin
 @media(max-width:850px){
   body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:17px}
 }
-.contact-list{align-items:center}
-.contact-list a{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none}
-.contact-list a:hover{text-decoration:underline;text-underline-offset:4px}
-.contact-list svg{width:24px;height:24px;flex:0 0 24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.contact-list{display:grid;gap:14px;margin-top:20px}
+.contact-list a{display:grid;grid-template-columns:34px minmax(0,1fr);align-items:center;gap:12px;color:#fff;text-decoration:none;width:max-content;max-width:min(100%,440px)}
+.contact-list a:hover{text-decoration:none}
+.contact-list a:hover span{text-decoration:underline;text-underline-offset:4px}
+.contact-list svg{width:26px;height:26px;justify-self:center;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.contact-list span{font-size:18px;line-height:1.25}
 .contact-list a[href*="facebook"] svg{fill:currentColor;stroke:none}
+@media(max-width:450px){
+  .contact-list a{grid-template-columns:30px minmax(0,1fr);gap:10px}
+  .contact-list svg{width:23px;height:23px}
+  .contact-list span{font-size:15px;word-break:break-word}
+}
