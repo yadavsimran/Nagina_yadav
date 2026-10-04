@@ -66,7 +66,7 @@ const translations = {
     navContact: 'सम्पर्क',
     hello: 'सह-महामन्त्री उम्मेदवार',
     candidate: '',
-    quota: 'Madeshi Group',
+    quota: 'मधेसी समूह',
     role: '',
     nepalMark: 'नेपाल',
     footerMark: 'नेपाली कांग्रेस',
