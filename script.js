@@ -54,10 +54,7 @@ const translations = {
     interviewsHeading: 'MEDIA &amp; PUBLIC VOICE',
     interviewsDescription: 'Through various interviews, public conversations, and recorded speeches, Nagina Yadav has shared her views and experiences on a range of topics. Her news interviews and YouTube channel bring together these conversations, speeches, and public appearances in one place. Explore her work through the links below.',
     youtube: 'Youtube channel',
-    contact: 'Contact',
-    email: 'Email',
-    facebook: 'Facebook',
-    footerYoutube: 'Youtube'
+    contact: 'Contact'
   },
   ne: {
     name: 'नागिना यादव',
@@ -114,10 +111,7 @@ const translations = {
     interviewsHeading: 'मिडिया र सार्वजनिक आवाज',
     interviewsDescription: 'विभिन्न अन्तर्वार्ता, सार्वजनिक संवाद र अभिलेखित भाषणमार्फत नागिना यादवले विविध विषयमा आफ्ना विचार र अनुभवहरू साझा गर्दै आउनुभएको छ। उहाँका समाचार अन्तर्वार्ता र युट्युब च्यानलले यी संवाद, भाषण र सार्वजनिक उपस्थितिहरूलाई एकै ठाउँमा समेट्छन्। तलका लिंकहरूबाट उहाँका कार्यहरू हेर्नुहोस्।',
     youtube: 'युट्युब च्यानल',
-    contact: 'सम्पर्क',
-    email: 'इमेल',
-    facebook: 'फेसबुक',
-    footerYoutube: 'युट्युब'
+    contact: 'सम्पर्क'
   }
 };
 

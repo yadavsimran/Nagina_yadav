@@ -67,3 +67,8 @@ body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:18px;lin
 @media(max-width:850px){
   body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:17px}
 }
+.contact-list{align-items:center}
+.contact-list a{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none}
+.contact-list a:hover{text-decoration:underline;text-underline-offset:4px}
+.contact-list svg{width:24px;height:24px;flex:0 0 24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.contact-list a[href*="facebook"] svg{fill:currentColor;stroke:none}
