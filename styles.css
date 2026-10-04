@@ -79,3 +79,12 @@ body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:18px;lin
   .contact-list svg{width:23px;height:23px}
   .contact-list span{font-size:15px;word-break:break-word}
 }
+.contact-list{gap:12px;margin-top:24px}
+.contact-list li{font-weight:700}
+.contact-list a{grid-template-columns:28px minmax(0,1fr);gap:14px}
+.contact-list span{font-size:10px;font-weight:700;line-height:1.5;letter-spacing:.13em;text-transform:uppercase}
+.contact-list svg{width:21px;height:21px;justify-self:start}
+body.ne .contact-list span{font-size:18px;line-height:1.5;letter-spacing:0;text-transform:none}
+@media(max-width:850px){
+  body.ne .contact-list span{font-size:17px}
+}
