@@ -88,3 +88,7 @@ body.ne .contact-list span{font-size:18px;line-height:1.5;letter-spacing:0;text-
 @media(max-width:850px){
   body.ne .contact-list span{font-size:17px}
 }
+.contact-list span,body.ne .contact-list span{font-family:"DM Sans",Arial,sans-serif;font-size:10px;font-weight:700;line-height:1.5;letter-spacing:.13em;text-transform:none}
+@media(max-width:450px){
+  .contact-list span,body.ne .contact-list span{font-size:10px;letter-spacing:.08em}
+}
