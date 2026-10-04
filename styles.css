@@ -92,3 +92,16 @@ body.ne .contact-list span{font-size:18px;line-height:1.5;letter-spacing:0;text-
 @media(max-width:450px){
   .contact-list span,body.ne .contact-list span{font-size:10px;letter-spacing:.08em}
 }
+.hero-name-row{display:grid;grid-template-columns:minmax(0,max-content) auto;align-items:end;column-gap:20px;width:max-content;max-width:100%;margin-top:0}
+.hero-name-row h1{grid-column:1;margin:0}
+.hero-name-row strong{grid-column:2;align-self:end;margin:0 0 10px;padding:9px 14px;border-left:4px solid var(--red);background:#fff7f0;color:var(--navy);font:800 14px/1.2 "DM Sans",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.hero .hello,body.ne .hero .hello{color:var(--red);font-family:"DM Sans",Arial,sans-serif;font-size:20px;font-weight:800;line-height:1.25}
+body.ne .hero .hello{font-family:"Noto Serif Devanagari","DM Sans",serif;font-size:23px;letter-spacing:0}
+body.ne .hero .eyebrow{font-size:16px;letter-spacing:0}
+@media(max-width:850px){
+  .hero-name-row{grid-template-columns:1fr;row-gap:14px;width:100%}
+  .hero-name-row strong{grid-column:1;justify-self:start;margin:0}
+}
+@media(max-width:450px){
+  .hero .hello,body.ne .hero .hello{font-size:18px}
+}
