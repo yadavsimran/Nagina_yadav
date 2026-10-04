@@ -92,3 +92,13 @@ body.ne .contact-list span{font-size:18px;line-height:1.5;letter-spacing:0;text-
 @media(max-width:450px){
   .contact-list span,body.ne .contact-list span{font-size:10px;letter-spacing:.08em}
 }
+.hero h1,body.ne .hero h1{margin-top:56px}
+.hero .candidate-note,body.ne .hero .candidate-note{margin-top:28px}
+.hero .candidate-note p,body.ne .hero .candidate-note p{font-size:22px;line-height:1.28}
+.hero .candidate-note strong,body.ne .hero .candidate-note strong{margin-top:0}
+body.ne .hero .eyebrow{font-size:16px;letter-spacing:0}
+body.ne .candidate-note strong{letter-spacing:0;text-transform:none}
+@media(max-width:850px){
+  .hero h1,body.ne .hero h1{margin-top:42px}
+  .hero .candidate-note p,body.ne .hero .candidate-note p{font-size:19px}
+}
