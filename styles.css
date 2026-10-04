@@ -63,3 +63,7 @@ body.ne .delegation h3{font-size:31px;line-height:1.12}
   body.ne .section-marker{font-size:17px}
   .delegation h3,body.ne .delegation h3{font-size:28px}
 }
+body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:18px;line-height:1.5;letter-spacing:0}
+@media(max-width:850px){
+  body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:17px}
+}
