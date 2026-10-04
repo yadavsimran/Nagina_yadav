@@ -44,3 +44,10 @@ body.ne .representation,body.ne .footer [data-i18n="contact"]{font-size:13.2px;l
   .hero .hero-photo{width:min(calc(100% - 32px),700px,calc(83.33svh - 76px))}
   .hero .hero-photo img{aspect-ratio:5 / 6;object-position:center top}
 }
+.profile .profile-grid{grid-template-columns:minmax(260px,.62fr) minmax(0,1.45fr);align-items:center}
+.profile .profile-content h2{white-space:nowrap;font-size:clamp(40px,4.4vw,76px)}
+.profile .profile-content p{max-width:760px;text-align:justify}
+@media(max-width:850px){
+  .profile .profile-grid{grid-template-columns:1fr}
+  .profile .profile-content h2{white-space:normal}
+}
