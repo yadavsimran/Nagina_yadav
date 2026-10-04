@@ -92,3 +92,7 @@ body.ne .contact-list span{font-size:18px;line-height:1.5;letter-spacing:0;text-
 @media(max-width:450px){
   .contact-list span,body.ne .contact-list span{font-size:10px;letter-spacing:.08em}
 }
+.hero .candidate-note p span,body.ne .hero .candidate-note p span{display:inline-block;margin:0 3px;padding:2px 7px 4px;background:var(--red);color:#fff;line-height:1.15;box-shadow:0 8px 18px rgba(212,60,67,.16)}
+.hero .candidate-note p,body.ne .hero .candidate-note p{max-width:560px}
+.hero .candidate-note strong,body.ne .hero .candidate-note strong{margin-top:6px}
+body.ne .hero .candidate-note p span{padding:0 7px 4px}
