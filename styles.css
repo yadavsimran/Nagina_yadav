@@ -98,9 +98,13 @@ body.ne .contact-list span{font-size:18px;line-height:1.5;letter-spacing:0;text-
 .hero .hello,body.ne .hero .hello{color:var(--red);font-family:"DM Sans",Arial,sans-serif;font-size:20px;font-weight:800;line-height:1.25}
 body.ne .hero .hello{font-family:"Noto Serif Devanagari","DM Sans",serif;font-size:23px;letter-spacing:0}
 body.ne .hero .eyebrow{font-size:16px;letter-spacing:0}
+body.ne .hero .eyebrow{transform:translateY(-16px)}
+body.ne .hero-name-row{column-gap:10px}
+body.ne .hero-name-row strong{margin-bottom:8px;font-family:"Noto Serif Devanagari","DM Sans",serif;font-size:16px;letter-spacing:0}
 @media(max-width:850px){
   .hero-name-row{grid-template-columns:1fr;row-gap:14px;width:100%}
   .hero-name-row strong{grid-column:1;justify-self:start;margin:0}
+  body.ne .hero .eyebrow{transform:none}
 }
 @media(max-width:450px){
   .hero .hello,body.ne .hero .hello{font-size:18px}
