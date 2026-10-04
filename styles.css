@@ -92,33 +92,3 @@ body.ne .contact-list span{font-size:18px;line-height:1.5;letter-spacing:0;text-
 @media(max-width:450px){
   .contact-list span,body.ne .contact-list span{font-size:10px;letter-spacing:.08em}
 }
-.hero h1,body.ne .hero h1{margin-top:56px}
-.hero .candidate-note,body.ne .hero .candidate-note{margin-top:28px}
-.hero .candidate-note p,body.ne .hero .candidate-note p{font-size:22px;line-height:1.28}
-.hero .candidate-note strong,body.ne .hero .candidate-note strong{margin-top:0}
-body.ne .hero .eyebrow{font-size:16px;letter-spacing:0}
-body.ne .candidate-note strong{letter-spacing:0;text-transform:none}
-@media(max-width:850px){
-  .hero h1,body.ne .hero h1{margin-top:42px}
-  .hero .candidate-note p,body.ne .hero .candidate-note p{font-size:19px}
-}
-.hero .candidate-note p,body.ne .hero .candidate-note p{display:inline-block;width:max-content;max-width:100%;padding-bottom:8px;border-bottom:3px solid var(--red);color:var(--red);font-size:27px;font-weight:900;line-height:1.25}
-body.ne .hero .candidate-note p{font-size:28px}
-@media(max-width:850px){
-  .hero .candidate-note p,body.ne .hero .candidate-note p{font-size:22px}
-}
-@media(max-width:450px){
-  .hero .candidate-note p,body.ne .hero .candidate-note p{font-size:19px}
-}
-.hero .candidate-note,body.ne .hero .candidate-note{display:grid;justify-items:start;gap:12px;margin-top:30px}
-.hero .candidate-note p,body.ne .hero .candidate-note p{display:inline-block;width:auto;max-width:520px;margin:0;padding:12px 16px;border:0;border-left:5px solid var(--navy);background:var(--red);color:#fff;box-shadow:0 14px 30px rgba(212,60,67,.18);font:900 24px/1.25 "DM Sans",Arial,sans-serif;letter-spacing:0}
-.hero .candidate-note strong,body.ne .hero .candidate-note strong{display:inline-flex;margin:0;padding:10px 16px;border-left:5px solid var(--red);background:#fff7f0;color:var(--navy);font:900 14px/1.2 "DM Sans",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
-body.ne .hero .candidate-note p{font-family:"Noto Serif Devanagari","DM Sans",serif;font-size:25px;line-height:1.35}
-body.ne .hero .candidate-note strong{font-family:"Noto Serif Devanagari","DM Sans",serif;font-size:15px;letter-spacing:0;text-transform:none}
-@media(max-width:850px){
-  .hero .candidate-note p,body.ne .hero .candidate-note p{font-size:21px}
-}
-@media(max-width:450px){
-  .hero .candidate-note p,body.ne .hero .candidate-note p{font-size:18px}
-  .hero .candidate-note strong,body.ne .hero .candidate-note strong{font-size:13px}
-}
