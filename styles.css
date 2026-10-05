@@ -132,7 +132,7 @@ body.ne .hero-name-row strong{transform:translateX(-86px);margin-bottom:18px;pad
 }
 body.ne .hero .eyebrow{transform:translateY(-30px)}
 .hero .hero-identity::before{left:-18%;top:46%;width:56%;height:42%;background-position:left center;opacity:.13;transform:rotate(8deg)}
-.hero .hero-identity::after{right:2%;top:31%;width:355px;height:430px;background-position:center center;opacity:.11}
+.hero .hero-identity::after{right:7%;top:33%;width:360px;height:360px;background-position:center center;background-size:contain;opacity:.12}
 .hero .eyebrow .nc-flag-img{object-fit:contain;background:transparent;filter:drop-shadow(0 8px 9px rgba(19,46,70,.16)) drop-shadow(2px 1px 0 rgba(255,255,255,.25));transform:perspective(190px) rotateY(-17deg) skewY(-2deg);transform-origin:left center}
 @media(max-width:850px){
   body.ne .hero .eyebrow{transform:none}
