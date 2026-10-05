@@ -157,3 +157,18 @@ body.ne .hero-name-bottom strong{font-family:"Noto Serif Devanagari","DM Sans",s
   .hero-name-bottom{display:block}
   .hero-name-bottom strong,body.ne .hero-name-bottom strong{margin-top:14px}
 }
+@media(max-width:850px){
+  .hero{display:grid;grid-template-columns:1fr;gap:34px;padding:38px clamp(24px,8vw,60px);background:var(--paper)}
+  .hero .hero-identity,body.ne .hero .hero-identity{padding:0;overflow:visible}
+  .hero .hero-identity::before,.hero .hero-identity::after{display:none}
+  .hero .eyebrow,body.ne .hero .eyebrow{transform:none;align-items:center;gap:18px;font-size:clamp(20px,5.4vw,28px);line-height:1.35;letter-spacing:0}
+  .hero .eyebrow span{padding-left:18px;border-left-width:5px}
+  .hero .eyebrow .nc-flag-img{width:92px;height:58px}
+  .hero .hello,body.ne .hero .hello{width:max-content;max-width:100%;margin:48px 0 14px;padding-bottom:10px;font-size:clamp(28px,7vw,42px);line-height:1.15}
+  .hero-name-row{width:100%;max-width:100%}
+  .hero-name-row h1,body.ne .hero-name-row h1{font-size:clamp(50px,14vw,76px);line-height:1;letter-spacing:0}
+  .hero-name-line,.hero-name-bottom{display:inline}
+  .hero-name-bottom strong,body.ne .hero-name-bottom strong{display:block;width:max-content;margin:24px 0 0 28px;padding:15px 22px;font-size:clamp(26px,6vw,40px);line-height:1.15}
+  .hero .hero-photo{order:1;width:min(100%,560px);justify-self:center;margin:22px auto 0;padding:14px 0 0 14px}
+  .hero .hero-photo img{width:100%;height:auto;aspect-ratio:5/6;object-fit:cover;object-position:center top}
+}
