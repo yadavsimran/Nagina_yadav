@@ -139,3 +139,10 @@ body.ne .hero .eyebrow{transform:translateY(-30px)}
 }
 .wordmark>span{background:transparent;clip-path:none;width:40px;height:40px}
 .wordmark>span img{display:block;width:100%;height:100%;object-fit:contain}
+@media(min-width:851px){
+  .hero{width:min(100%,1366px);max-width:1366px;margin:0 auto;grid-template-columns:minmax(0,1fr) minmax(360px,.92fr) 40px;min-height:min(650px,calc(100svh - 78px))}
+  .hero .hero-identity,body.ne .hero .hero-identity{padding:32px clamp(24px,6vw,92px)}
+  .hero h1,body.ne .hero h1{font-size:clamp(64px,5vw,88px);line-height:1.02}
+  .hero .hello,body.ne .hero .hello{font-size:clamp(24px,2.2vw,30px)}
+  .hero .hero-photo{width:min(calc(100% - 48px),520px,calc(72svh - 64px))}
+}
