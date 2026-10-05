@@ -118,7 +118,7 @@ body.ne .hero-name-row strong{margin-bottom:8px;transform:translateX(-112px);fon
 .hero .eyebrow span{border-left:3px solid var(--red);padding-left:12px}
 .hero .hello{display:inline-block;margin-top:34px;margin-bottom:18px;padding-bottom:8px;border-bottom:2px solid var(--red);color:var(--red);font-size:30px}
 .hero-name-row{column-gap:0}
-.hero-name-row strong{transform:translateX(-26px);margin-bottom:18px;padding:13px 18px;font-size:18px}
+.hero-name-row strong{transform:none;margin:0 0 18px 14px;padding:13px 18px;font-size:18px}
 body.ne .hero .eyebrow{transform:none;color:#18723d;font-size:18px;font-weight:800}
 body.ne .hero .hello{width:max-content;margin-top:38px;margin-bottom:8px;padding-bottom:8px;border-bottom:2px solid var(--red);font-size:32px;font-weight:800}
 body.ne .hero-name-row strong{transform:translateX(-86px);margin-bottom:18px;padding:12px 17px;font-size:24px;font-weight:800}
