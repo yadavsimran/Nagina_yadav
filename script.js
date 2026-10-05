@@ -1,6 +1,8 @@
 const translations = {
   en: {
     name: 'Nagina Yadav',
+    heroNameFirst: 'Nagina',
+    heroNameLast: 'Yadav',
     party: 'Nepali Congress 15th General Convention',
     navIntroduction: 'Introduction',
     navTimeline: 'Time Line',
@@ -58,6 +60,8 @@ const translations = {
   },
   ne: {
     name: 'नागिना यादव',
+    heroNameFirst: 'नागिना',
+    heroNameLast: 'यादव',
     party: 'नेपाली कांग्रेसको १५औँ महाधिवेशन',
     navIntroduction: 'परिचय',
     navTimeline: 'समयरेखा',

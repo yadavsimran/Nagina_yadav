@@ -146,3 +146,14 @@ body.ne .hero .eyebrow{transform:translateY(-30px)}
   .hero .hello,body.ne .hero .hello{font-size:clamp(24px,2.2vw,30px)}
   .hero .hero-photo{width:min(calc(100% - 48px),520px,calc(72svh - 64px))}
 }
+.hero-name-row{display:block;width:max-content;max-width:100%}
+.hero-name-row h1{display:block;margin:0}
+.hero-name-line{display:block}
+.hero-name-bottom{display:flex;align-items:flex-end;gap:14px}
+.hero-name-bottom strong,
+body.ne .hero-name-bottom strong{display:inline-block;flex:0 0 auto;transform:none;margin:0 0 .18em 0;padding:12px 18px;border-left:4px solid var(--red);background:#fff7f0;color:var(--navy);font:800 18px/1.2 "DM Sans",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+body.ne .hero-name-bottom strong{font-family:"Noto Serif Devanagari","DM Sans",serif;font-size:24px;letter-spacing:0;text-transform:none}
+@media(max-width:850px){
+  .hero-name-bottom{display:block}
+  .hero-name-bottom strong,body.ne .hero-name-bottom strong{margin-top:14px}
+}
