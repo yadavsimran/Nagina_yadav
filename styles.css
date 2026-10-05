@@ -130,3 +130,9 @@ body.ne .hero-name-row strong{transform:translateX(-86px);margin-bottom:18px;pad
 @media(max-width:450px){
   body.ne .hero .hello{font-size:24px}
 }
+body.ne .hero .eyebrow{transform:translateY(-30px)}
+.hero .hero-identity::before{left:-18%;bottom:-3%;width:82%;height:34%;opacity:.13;transform:rotate(7deg)}
+.hero .hero-identity::after{right:-7%;top:18%;width:440px;height:470px;opacity:.12}
+@media(max-width:850px){
+  body.ne .hero .eyebrow{transform:none}
+}
