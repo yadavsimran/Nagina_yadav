@@ -130,7 +130,8 @@ body.ne .hero-name-row strong{transform:translateX(-86px);margin-bottom:18px;pad
 @media(max-width:450px){
   body.ne .hero .hello{font-size:24px}
 }
-body.ne .hero .eyebrow{transform:translateY(-30px)}
+body.ne .hero .eyebrow{transform:translateY(-72px);font-size:22px;gap:18px}
+body.ne .hero .eyebrow .nc-flag-img{width:92px;height:58px}
 .hero .hero-identity::before{left:-18%;bottom:-3%;width:82%;height:34%;opacity:.13;transform:rotate(7deg)}
 .hero .hero-identity::after{right:-7%;top:18%;width:440px;height:470px;opacity:.12}
 @media(max-width:850px){
