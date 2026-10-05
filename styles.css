@@ -113,33 +113,20 @@ body.ne .hero-name-row strong{margin-bottom:8px;transform:translateX(-112px);fon
 .hero .hero-identity{position:relative;overflow:hidden}
 .hero .hero-identity>*{position:relative;z-index:1}
 .hero .hero-identity::before{content:"";position:absolute;left:-10%;bottom:2%;width:72%;height:30%;background:url("assets/nepali-congress-flag.jpg") left bottom/cover no-repeat;opacity:.12;filter:saturate(1.35);transform:rotate(8deg);z-index:0}
-.hero .hero-identity::after{content:"";position:absolute;right:7%;top:28%;width:220px;height:260px;background:radial-gradient(circle at 50% 28%,rgba(19,46,70,.13) 0 28%,transparent 29%),radial-gradient(circle at 25% 38%,rgba(19,46,70,.1) 0 17%,transparent 18%),radial-gradient(circle at 72% 42%,rgba(19,46,70,.09) 0 20%,transparent 21%),linear-gradient(90deg,transparent 46%,rgba(19,46,70,.12) 47% 53%,transparent 54%);opacity:.55;z-index:0}
+.hero .hero-identity::after{content:"";position:absolute;right:7%;top:28%;width:260px;height:260px;background:url("assets/congress-tree.png") center/contain no-repeat;opacity:.13;z-index:0}
 .hero .eyebrow{color:#18723d}
 .hero .eyebrow span{border-left:3px solid var(--red);padding-left:12px}
 .hero .hello{display:inline-block;margin-top:34px;margin-bottom:18px;padding-bottom:8px;border-bottom:2px solid var(--red);color:var(--red);font-size:30px}
 .hero-name-row{column-gap:0}
 .hero-name-row strong{transform:translateX(-26px);margin-bottom:18px;padding:13px 18px;font-size:18px}
-.hero-features{position:relative;z-index:1;display:flex;align-items:center;gap:24px;list-style:none;margin:58px 0 0;padding:0;color:var(--navy);font-weight:800}
-.hero-features li{display:grid;grid-template-columns:42px auto;align-items:center;gap:12px;min-width:0}
-.hero-features li+li{border-left:1px solid var(--red);padding-left:24px}
-.hero-features svg{width:42px;height:42px;color:#e1262f;fill:currentColor;stroke:currentColor;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
-.hero-features span{font-size:15px;line-height:1.25}
 body.ne .hero .eyebrow{transform:none;color:#18723d;font-size:18px;font-weight:800}
 body.ne .hero .hello{margin-top:38px;margin-bottom:8px;padding-bottom:8px;border-bottom:2px solid var(--red);font-size:32px;font-weight:800}
 body.ne .hero-name-row strong{transform:translateX(-86px);margin-bottom:18px;padding:12px 17px;font-size:24px;font-weight:800}
-body.ne .hero-features{margin-top:64px;font-family:"Noto Serif Devanagari","DM Sans",serif}
-body.ne .hero-features span{font-size:18px;line-height:1.25}
 @media(max-width:850px){
   .hero .hero-identity::before,.hero .hero-identity::after{display:none}
   .hero .hello{font-size:24px}
   .hero-name-row strong,body.ne .hero-name-row strong{transform:none;margin-bottom:0}
-  .hero-features{flex-wrap:wrap;margin-top:34px;gap:18px}
-  .hero-features li+li{border-left:0;padding-left:0}
 }
 @media(max-width:450px){
-  .hero-features{display:grid;grid-template-columns:1fr;gap:14px}
-  .hero-features li{grid-template-columns:34px auto}
-  .hero-features svg{width:34px;height:34px}
   body.ne .hero .hello{font-size:24px}
-  body.ne .hero-features span{font-size:16px}
 }
