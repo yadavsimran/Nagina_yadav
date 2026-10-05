@@ -171,4 +171,5 @@ body.ne .hero-name-bottom strong{font-family:"Noto Serif Devanagari","DM Sans",s
   .hero-name-bottom strong,body.ne .hero-name-bottom strong{display:block;width:max-content;margin:24px 0 0 28px;padding:15px 22px;font-size:clamp(26px,6vw,40px);line-height:1.15}
   .hero .hero-photo{order:1;width:min(100%,560px);justify-self:center;margin:22px auto 0;padding:14px 0 0 14px}
   .hero .hero-photo img{width:100%;height:auto;aspect-ratio:5/6;object-fit:cover;object-position:center top}
+  body.ne .hero-name-line,body.ne .hero-name-bottom{display:block}
 }
